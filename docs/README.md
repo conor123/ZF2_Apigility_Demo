@@ -4,8 +4,10 @@
 php -S localhost:8888 -t public public/index.php
 
 # RESTful requests
+
 #GET
 localhost:8888/test
+
 #POST
 localhost:8888/test
 {
@@ -13,3 +15,13 @@ localhost:8888/test
 }
 JSON(application/json) RAW
 Auth conor/L3onardo9!
+
+#PUT
+localhost:8888/test/5
+{
+  "name" : "Jordaneau"
+}
+
+#DELETE
+localhost:8888/test/5
+
